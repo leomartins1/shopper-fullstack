@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysqlcontainer
+    environment:
+      MYSQL_USER: admin
+      MYSQL_ROOT_PASSWORD: my-secret-password
+      MYSQL_DATABASE: my-database
+      MYSQL_PASSWORD: my-secret-password
+      MYSQL_ROOT_HOST: '%'
+    ports:
+      - 3306:3306
+    command: ["--init-file", "/docker-entrypoint-initdb.d/database.sql"]
+    volumes:
+      - ./init-scripts:/docker-entrypoint-initdb.d
