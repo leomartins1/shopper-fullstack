@@ -1,4 +1,4 @@
-# Seu Projeto Full-Stack com React, Node.js e MySQL
+# Projeto Full-Stack com React, Node.js e MySQL
 
 Este é o repositório do teste técnico full-stack jr da Shopper, que inclui o front-end desenvolvido em React e o back-end em Node.js, com um banco de dados MySQL usando Docker Compose.
 
