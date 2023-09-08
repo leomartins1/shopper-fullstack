@@ -33,6 +33,7 @@ yarn
 4. Executando o Projeto
 
 Front-End (React)
+
 Para iniciar o servidor de desenvolvimento do front-end:
 
 ```bash
@@ -43,6 +44,7 @@ yarn dev
 O front-end estará disponível em http://localhost:3000.
 
 Back-End (Node.js)
+
 Certifique-se de que o Docker esteja em execução. Em seguida, inicie o Docker Compose para o MySQL:
 
 ```bash
